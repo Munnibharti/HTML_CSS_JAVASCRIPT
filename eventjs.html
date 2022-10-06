@@ -1,0 +1,31 @@
+<html>
+<head>
+
+</head>
+<body>
+<script>
+function effect()
+{
+ x = document.getElementById("para1");
+ x.style.backgroundColor="lightblue";
+ y=document.getElementById("para2");
+ y.style.backgroundColor="red";
+ z=document.getElementById("para3");
+ z.style.backgroundColor="pink";
+ k=document.getelementById("para4");
+ k.style.backgroundColor="brown";
+}
+ function effectback()
+{
+ var x=document.getElementById("para1")
+ x.style.backgroundColor="white";
+}
+
+</script>
+
+<h1 id="para2"onmouseout="effect()"> Welcome To The page</h1>
+<p id="para1" onmouseover="effect()" onmouseout="effectback()"> This is my first paragraph </p>
+<p id="para3" onmouseup="effect()"> This is my second Paragraph </p>
+<p id="para4" onmousedown="effect()">This is my third paragraph. </p>
+</body>
+</html>

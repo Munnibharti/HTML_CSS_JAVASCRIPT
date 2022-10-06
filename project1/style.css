@@ -1,0 +1,17 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    background-color: rgb(171, 171, 185);
+     min-height: 100vh;
+     border:10px solid #10043b 
+
+}
+.content{
+    max-width: 900px;
+    margin:0 auto;
+    
+}

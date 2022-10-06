@@ -1,0 +1,23 @@
+<html>
+ <head>
+<script>
+function f1()
+{
+ var x = document.getElementById("p1");
+ alert(x.tagName);
+ alert(x.innerHTML);
+ x.innerHTML="This is modified paragraph";
+ var y=document.getElementsByTagName("p");
+ alert(y);
+ alert(y[0].innerHTML);
+ alert(y[1].innerHTML);
+}
+</script>
+ </head>
+ <body>
+<h1> Welcome</h1>
+<p id="p1">this is paragraph</p>
+<p>This is just another paragraph</p>
+<button onclick="f1()">Click</button>
+ </body>
+</html>
